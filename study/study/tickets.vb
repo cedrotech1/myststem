@@ -60,6 +60,7 @@ Public Class tickets
                 Using command As New SqlCommand(query, connection)
                     command.Parameters.AddWithValue("@dir", dir)
                     command.Parameters.AddWithValue("@am", am)
+                    'command.Parameters.AddWithValue("@id", number)
 
 
                     Dim rowsAffected As Integer = command.ExecuteNonQuery()
@@ -97,7 +98,7 @@ Public Class tickets
 
 
 
-            MsgBox("Number of routes: " & Number)
+            'MsgBox("Number of routes: " & Number)
             ' Tid.Text = number.ToString()
             Label6.Text = number
             Label8.Text = "TICKET ID IS"
@@ -138,5 +139,19 @@ Public Class tickets
 
         ' Binding data to the DataGridView
         DataGridView1.DataSource = dataTable
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        getTicket.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        LoginForm1.Show()
+        Me.Hide()
     End Sub
 End Class

@@ -30,7 +30,6 @@ Partial Class Home
         Me.MainG = New System.Windows.Forms.DataGridView()
         Me.DataGridViewx = New System.Windows.Forms.DataGridView()
         Me.DataGridView3 = New System.Windows.Forms.DataGridView()
-        Me.Button5 = New System.Windows.Forms.Button()
         Me.DataGridView4 = New System.Windows.Forms.DataGridView()
         Me.DataGridView5 = New System.Windows.Forms.DataGridView()
         Me.WELCAME = New System.Windows.Forms.Label()
@@ -41,6 +40,7 @@ Partial Class Home
         Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
         CType(Me.MainG, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridViewx, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -93,7 +93,7 @@ Partial Class Home
         Me.Button4.BackColor = System.Drawing.SystemColors.ButtonShadow
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.Button4.Location = New System.Drawing.Point(14, 274)
+        Me.Button4.Location = New System.Drawing.Point(14, 278)
         Me.Button4.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(124, 37)
@@ -139,19 +139,6 @@ Partial Class Home
         Me.DataGridView3.Name = "DataGridView3"
         Me.DataGridView3.Size = New System.Drawing.Size(722, 53)
         Me.DataGridView3.TabIndex = 7
-        '
-        'Button5
-        '
-        Me.Button5.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.Button5.Location = New System.Drawing.Point(14, 317)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(124, 37)
-        Me.Button5.TabIndex = 8
-        Me.Button5.Text = "All Tickets"
-        Me.Button5.UseVisualStyleBackColor = False
         '
         'DataGridView4
         '
@@ -283,11 +270,25 @@ Partial Class Home
         Me.Button3.Text = "Reports"
         Me.Button3.UseVisualStyleBackColor = False
         '
+        'Button5
+        '
+        Me.Button5.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button5.ForeColor = System.Drawing.SystemColors.HighlightText
+        Me.Button5.Location = New System.Drawing.Point(14, 323)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(124, 37)
+        Me.Button5.TabIndex = 20
+        Me.Button5.Text = "Logout"
+        Me.Button5.UseVisualStyleBackColor = False
+        '
         'Home
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(766, 450)
+        Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.RichTextBox1)
         Me.Controls.Add(Me.Label3)
@@ -297,7 +298,6 @@ Partial Class Home
         Me.Controls.Add(Me.WELCAME)
         Me.Controls.Add(Me.DataGridView5)
         Me.Controls.Add(Me.DataGridView4)
-        Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.DataGridView3)
         Me.Controls.Add(Me.DataGridViewx)
         Me.Controls.Add(Me.MainG)
@@ -329,7 +329,6 @@ Partial Class Home
     Friend WithEvents MainG As DataGridView
     Friend WithEvents DataGridViewx As DataGridView
     Friend WithEvents DataGridView3 As DataGridView
-    Friend WithEvents Button5 As Button
     Friend WithEvents DataGridView4 As DataGridView
     Friend WithEvents DataGridView5 As DataGridView
     Friend WithEvents WELCAME As Label
@@ -340,4 +339,5 @@ Partial Class Home
     Friend WithEvents RichTextBox1 As RichTextBox
     Friend WithEvents Label4 As Label
     Friend WithEvents Button3 As Button
+    Friend WithEvents Button5 As Button
 End Class

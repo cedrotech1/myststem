@@ -73,17 +73,29 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="agents.Designer.vb">
+      <DependentUpon>agents.vb</DependentUpon>
+    </Compile>
+    <Compile Include="agents.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Report.Designer.vb">
+      <DependentUpon>Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="tickets.Designer.vb">
       <DependentUpon>tickets.vb</DependentUpon>
     </Compile>
     <Compile Include="tickets.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.vb">
-      <DependentUpon>Form2.vb</DependentUpon>
+    <Compile Include="getTicket.Designer.vb">
+      <DependentUpon>getTicket.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form2.vb">
+    <Compile Include="getTicket.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Home.vb">
@@ -135,11 +147,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="agents.resx">
+      <DependentUpon>agents.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report.resx">
+      <DependentUpon>Report.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="tickets.resx">
       <DependentUpon>tickets.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.vb</DependentUpon>
+    <EmbeddedResource Include="getTicket.resx">
+      <DependentUpon>getTicket.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.vb</DependentUpon>

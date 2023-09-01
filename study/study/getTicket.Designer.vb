@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form2
+Partial Class getTicket
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -31,9 +31,6 @@ Partial Class Form2
         Me.DataGridView5 = New System.Windows.Forms.DataGridView()
         Me.DataGridView3 = New System.Windows.Forms.DataGridView()
         Me.DataGridViewx = New System.Windows.Forms.DataGridView()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.addB = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
@@ -44,10 +41,13 @@ Partial Class Form2
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.Tid = New System.Windows.Forms.TextBox()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Label16 = New System.Windows.Forms.Label()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
         CType(Me.DataGridView5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridViewx, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -163,45 +163,6 @@ Partial Class Form2
         Me.DataGridViewx.Size = New System.Drawing.Size(730, 53)
         Me.DataGridViewx.TabIndex = 115
         '
-        'Button3
-        '
-        Me.Button3.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.Button3.Location = New System.Drawing.Point(32, 180)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(132, 37)
-        Me.Button3.TabIndex = 114
-        Me.Button3.Text = "logout"
-        Me.Button3.UseVisualStyleBackColor = False
-        '
-        'Button1
-        '
-        Me.Button1.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.Button1.Location = New System.Drawing.Point(32, 137)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(132, 37)
-        Me.Button1.TabIndex = 113
-        Me.Button1.Text = "view tickets"
-        Me.Button1.UseVisualStyleBackColor = False
-        '
-        'addB
-        '
-        Me.addB.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.addB.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.addB.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.addB.Location = New System.Drawing.Point(32, 94)
-        Me.addB.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.addB.Name = "addB"
-        Me.addB.Size = New System.Drawing.Size(132, 37)
-        Me.addB.TabIndex = 112
-        Me.addB.Text = "Add tickets"
-        Me.addB.UseVisualStyleBackColor = False
-        '
         'Label1
         '
         Me.Label1.AutoSize = True
@@ -316,19 +277,6 @@ Partial Class Form2
         Me.Label14.TabIndex = 140
         Me.Label14.Text = "........................"
         '
-        'Button2
-        '
-        Me.Button2.BackColor = System.Drawing.SystemColors.InactiveCaptionText
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.Button2.Location = New System.Drawing.Point(32, 251)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(132, 112)
-        Me.Button2.TabIndex = 141
-        Me.Button2.Text = "Agent"
-        Me.Button2.UseVisualStyleBackColor = False
-        '
         'Tid
         '
         Me.Tid.Location = New System.Drawing.Point(194, 125)
@@ -356,15 +304,70 @@ Partial Class Form2
         Me.Label16.TabIndex = 153
         Me.Label16.Text = "ENTER TICKET ID"
         '
-        'Form2
+        'Button5
+        '
+        Me.Button5.BackColor = System.Drawing.SystemColors.InactiveCaptionText
+        Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button5.ForeColor = System.Drawing.SystemColors.HighlightText
+        Me.Button5.Location = New System.Drawing.Point(32, 236)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(124, 112)
+        Me.Button5.TabIndex = 167
+        Me.Button5.Text = "Agent"
+        Me.Button5.UseVisualStyleBackColor = False
+        '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.SystemColors.HighlightText
+        Me.Button2.Location = New System.Drawing.Point(32, 188)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(124, 37)
+        Me.Button2.TabIndex = 166
+        Me.Button2.Text = "logout"
+        Me.Button2.UseVisualStyleBackColor = False
+        '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.SystemColors.HighlightText
+        Me.Button1.Location = New System.Drawing.Point(32, 138)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(124, 37)
+        Me.Button1.TabIndex = 165
+        Me.Button1.Text = "Print Tickets"
+        Me.Button1.UseVisualStyleBackColor = False
+        '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.ForeColor = System.Drawing.SystemColors.HighlightText
+        Me.Button3.Location = New System.Drawing.Point(32, 92)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(124, 37)
+        Me.Button3.TabIndex = 164
+        Me.Button3.Text = "Tickets"
+        Me.Button3.UseVisualStyleBackColor = False
+        '
+        'getTicket
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button5)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Label16)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Tid)
-        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.Label13)
@@ -384,10 +387,7 @@ Partial Class Form2
         Me.Controls.Add(Me.DataGridView5)
         Me.Controls.Add(Me.DataGridView3)
         Me.Controls.Add(Me.DataGridViewx)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.addB)
-        Me.Name = "Form2"
+        Me.Name = "getTicket"
         Me.Text = "Form2"
         CType(Me.DataGridView5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DataGridView3, System.ComponentModel.ISupportInitialize).EndInit()
@@ -405,9 +405,6 @@ Partial Class Form2
     Friend WithEvents DataGridView5 As DataGridView
     Friend WithEvents DataGridView3 As DataGridView
     Friend WithEvents DataGridViewx As DataGridView
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button1 As Button
-    Friend WithEvents addB As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Label6 As Label
@@ -418,8 +415,11 @@ Partial Class Form2
     Friend WithEvents Label13 As Label
     Friend WithEvents Label10 As Label
     Friend WithEvents Label14 As Label
-    Friend WithEvents Button2 As Button
     Friend WithEvents Tid As TextBox
     Friend WithEvents Button4 As Button
     Friend WithEvents Label16 As Label
+    Friend WithEvents Button5 As Button
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Button3 As Button
 End Class

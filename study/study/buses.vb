@@ -174,11 +174,7 @@ Public Class buses
         DataGridView5.DataSource = dataTable
     End Sub
 
-    Private Sub direction_Click(sender As Object, e As EventArgs) Handles direction.Click
-        Directions.Show()
-        Me.Hide()
 
-    End Sub
 
     Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles TextBox2.TextChanged
 
@@ -188,12 +184,38 @@ Public Class buses
 
     End Sub
 
+
+
+    Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
+
+    End Sub
+
+
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+
+        Directions.Show()
+        Me.Hide()
+    End Sub
+
+
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         routes.Show()
         Me.Hide()
     End Sub
 
-    Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Report.Show()
+        Me.Hide()
+    End Sub
 
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        LoginForm1.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        agents.Show()
+        Me.Hide()
     End Sub
 End Class

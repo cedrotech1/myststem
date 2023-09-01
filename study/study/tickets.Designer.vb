@@ -45,6 +45,7 @@ Partial Class tickets
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
+        Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridViewx, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -79,12 +80,12 @@ Partial Class tickets
         Me.Button4.BackColor = System.Drawing.SystemColors.ButtonShadow
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.Button4.Location = New System.Drawing.Point(36, 132)
+        Me.Button4.Location = New System.Drawing.Point(36, 135)
         Me.Button4.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(124, 37)
         Me.Button4.TabIndex = 129
-        Me.Button4.Text = "All Tickets"
+        Me.Button4.Text = "Print Tickets"
         Me.Button4.UseVisualStyleBackColor = False
         '
         'DataGridViewx
@@ -296,11 +297,25 @@ Partial Class tickets
         Me.Label8.Size = New System.Drawing.Size(0, 17)
         Me.Label8.TabIndex = 161
         '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.SystemColors.HighlightText
+        Me.Button2.Location = New System.Drawing.Point(36, 185)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(124, 37)
+        Me.Button2.TabIndex = 162
+        Me.Button2.Text = "Logout"
+        Me.Button2.UseVisualStyleBackColor = False
+        '
         'tickets
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
@@ -356,4 +371,5 @@ Partial Class tickets
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents Label8 As Label
+    Friend WithEvents Button2 As Button
 End Class

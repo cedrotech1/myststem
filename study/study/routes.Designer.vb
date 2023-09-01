@@ -29,13 +29,7 @@ Partial Class routes
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.WELCAME = New System.Windows.Forms.Label()
-        Me.Button5 = New System.Windows.Forms.Button()
         Me.DataGridViewx = New System.Windows.Forms.DataGridView()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.direction = New System.Windows.Forms.Button()
-        Me.addB = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.ComboBoxD = New System.Windows.Forms.ComboBox()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -52,8 +46,14 @@ Partial Class routes
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.ref = New System.Windows.Forms.Button()
         Me.Label9 = New System.Windows.Forms.Label()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Buttonv = New System.Windows.Forms.Button()
+        Me.addB = New System.Windows.Forms.Button()
         CType(Me.DataGridViewx, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -136,19 +136,6 @@ Partial Class routes
         Me.WELCAME.TabIndex = 90
         Me.WELCAME.Text = "WELCAME TO OUR TICKET SYSTEM"
         '
-        'Button5
-        '
-        Me.Button5.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.Button5.Location = New System.Drawing.Point(30, 322)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(124, 37)
-        Me.Button5.TabIndex = 87
-        Me.Button5.Text = "All Tickets"
-        Me.Button5.UseVisualStyleBackColor = False
-        '
         'DataGridViewx
         '
         Me.DataGridViewx.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
@@ -161,71 +148,6 @@ Partial Class routes
         Me.DataGridViewx.Name = "DataGridViewx"
         Me.DataGridViewx.Size = New System.Drawing.Size(722, 53)
         Me.DataGridViewx.TabIndex = 85
-        '
-        'Button4
-        '
-        Me.Button4.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.Button4.Location = New System.Drawing.Point(30, 273)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(124, 37)
-        Me.Button4.TabIndex = 84
-        Me.Button4.Text = "All Tickets"
-        Me.Button4.UseVisualStyleBackColor = False
-        '
-        'Button3
-        '
-        Me.Button3.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.Button3.Location = New System.Drawing.Point(30, 223)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(124, 37)
-        Me.Button3.TabIndex = 83
-        Me.Button3.Text = "Tickets"
-        Me.Button3.UseVisualStyleBackColor = False
-        '
-        'Button2
-        '
-        Me.Button2.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.Button2.Location = New System.Drawing.Point(30, 176)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(124, 37)
-        Me.Button2.TabIndex = 82
-        Me.Button2.Text = "Set Route"
-        Me.Button2.UseVisualStyleBackColor = False
-        '
-        'direction
-        '
-        Me.direction.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.direction.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.direction.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.direction.Location = New System.Drawing.Point(30, 130)
-        Me.direction.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.direction.Name = "direction"
-        Me.direction.Size = New System.Drawing.Size(124, 37)
-        Me.direction.TabIndex = 81
-        Me.direction.Text = "Add Directions"
-        Me.direction.UseVisualStyleBackColor = False
-        '
-        'addB
-        '
-        Me.addB.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.addB.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.addB.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.addB.Location = New System.Drawing.Point(30, 87)
-        Me.addB.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.addB.Name = "addB"
-        Me.addB.Size = New System.Drawing.Size(124, 37)
-        Me.addB.TabIndex = 80
-        Me.addB.Text = "Add Buss"
-        Me.addB.UseVisualStyleBackColor = False
         '
         'DataGridView1
         '
@@ -380,17 +302,17 @@ Partial Class routes
         Me.TextBox2.Size = New System.Drawing.Size(135, 20)
         Me.TextBox2.TabIndex = 122
         '
-        'Button1
+        'ref
         '
-        Me.Button1.BackColor = System.Drawing.Color.Black
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button1.Location = New System.Drawing.Point(542, 231)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(88, 31)
-        Me.Button1.TabIndex = 123
-        Me.Button1.Text = "Refresh"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.ref.BackColor = System.Drawing.Color.Black
+        Me.ref.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ref.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.ref.Location = New System.Drawing.Point(542, 231)
+        Me.ref.Name = "ref"
+        Me.ref.Size = New System.Drawing.Size(88, 31)
+        Me.ref.TabIndex = 123
+        Me.ref.Text = "Refresh"
+        Me.ref.UseVisualStyleBackColor = False
         '
         'Label9
         '
@@ -404,13 +326,97 @@ Partial Class routes
         Me.Label9.TabIndex = 124
         Me.Label9.Text = "LISTE OF ALL ROUTES"
         '
+        'Button5
+        '
+        Me.Button5.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button5.ForeColor = System.Drawing.SystemColors.HighlightText
+        Me.Button5.Location = New System.Drawing.Point(30, 320)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(124, 37)
+        Me.Button5.TabIndex = 130
+        Me.Button5.Text = "Logout"
+        Me.Button5.UseVisualStyleBackColor = False
+        '
+        'Button4
+        '
+        Me.Button4.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.ForeColor = System.Drawing.SystemColors.HighlightText
+        Me.Button4.Location = New System.Drawing.Point(30, 275)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(124, 37)
+        Me.Button4.TabIndex = 129
+        Me.Button4.Text = "Users"
+        Me.Button4.UseVisualStyleBackColor = False
+        '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.ForeColor = System.Drawing.SystemColors.HighlightText
+        Me.Button3.Location = New System.Drawing.Point(30, 228)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(124, 37)
+        Me.Button3.TabIndex = 128
+        Me.Button3.Text = "Reports"
+        Me.Button3.UseVisualStyleBackColor = False
+        '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.SystemColors.HighlightText
+        Me.Button2.Location = New System.Drawing.Point(30, 181)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(124, 37)
+        Me.Button2.TabIndex = 127
+        Me.Button2.Text = "Set Route"
+        Me.Button2.UseVisualStyleBackColor = False
+        '
+        'Buttonv
+        '
+        Me.Buttonv.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.Buttonv.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Buttonv.ForeColor = System.Drawing.SystemColors.HighlightText
+        Me.Buttonv.Location = New System.Drawing.Point(30, 135)
+        Me.Buttonv.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.Buttonv.Name = "Buttonv"
+        Me.Buttonv.Size = New System.Drawing.Size(124, 37)
+        Me.Buttonv.TabIndex = 126
+        Me.Buttonv.Text = "Add Directions"
+        Me.Buttonv.UseVisualStyleBackColor = False
+        '
+        'addB
+        '
+        Me.addB.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.addB.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.addB.ForeColor = System.Drawing.SystemColors.HighlightText
+        Me.addB.Location = New System.Drawing.Point(30, 92)
+        Me.addB.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.addB.Name = "addB"
+        Me.addB.Size = New System.Drawing.Size(124, 37)
+        Me.addB.TabIndex = 125
+        Me.addB.Text = "Add Buss"
+        Me.addB.UseVisualStyleBackColor = False
+        '
         'routes
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(788, 450)
+        Me.Controls.Add(Me.Button5)
+        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Buttonv)
+        Me.Controls.Add(Me.addB)
         Me.Controls.Add(Me.Label9)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.ref)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.TextBox1)
@@ -432,13 +438,7 @@ Partial Class routes
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.WELCAME)
-        Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.DataGridViewx)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.direction)
-        Me.Controls.Add(Me.addB)
         Me.Controls.Add(Me.DataGridView2)
         Me.Name = "routes"
         Me.Text = "Form4"
@@ -456,13 +456,7 @@ Partial Class routes
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents WELCAME As Label
-    Friend WithEvents Button5 As Button
     Friend WithEvents DataGridViewx As DataGridView
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents direction As Button
-    Friend WithEvents addB As Button
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents ComboBoxD As ComboBox
     Friend WithEvents Label1 As Label
@@ -479,6 +473,12 @@ Partial Class routes
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents Button1 As Button
+    Friend WithEvents ref As Button
     Friend WithEvents Label9 As Label
+    Friend WithEvents Button5 As Button
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Buttonv As Button
+    Friend WithEvents addB As Button
 End Class
